@@ -14,8 +14,7 @@ print(aes.AES(key).decrypt_ctr(encrypted, iv))
 
 - AES-128, AES-192 and AES-256 implementations in pure python (very slow, but
   works).
-  Results have been tested against the NIST standard (http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)
-- CBC mode for AES with PKCS#7 padding (now also PCBC, CFB, OFB and CTR)
+- CBC mode for AES with PKCS#7 padding (also PCBC, CFB, OFB and CTR)
 - `encrypt` and `decrypt` functions for protecting arbitrary data with a
   password
 
